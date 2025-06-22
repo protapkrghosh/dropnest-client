@@ -20,7 +20,7 @@ const Footer = () => {
                      </p>
                   </aside>
 
-                  <nav className="md:flex justify-center gap-5 md:gap-9 text-base text-gray-400 border-y border-dashed border-[#03464D] py-5 md:py-8 w-full">
+                  <nav className="md:flex justify-center gap-5 md:gap-9 text-base text-gray-400 font-medium border-y border-dashed border-[#03464D] py-5 md:py-8 w-full">
                      <NavLink
                         to={"/service"}
                         key={"service"}
