@@ -1,12 +1,13 @@
 import React from "react";
 import logo from "../../assets/logo.png";
 
-const DropNestLogo = ({ textColor, margin }) => {
+const DropNestLogo = ({ text, textColor, margin }) => {
    return (
       <div className="flex items-end">
-         <img src={logo} alt="Image" />
+         <img src={logo} alt="Image" className="w-[32px]"/>
+
          <h2
-            className={`text-[32px] font-extrabold -ml-3 ${textColor} ${margin}`}
+            className={`font-extrabold -ml-3 ${text} ${textColor} ${margin}`}
          >
             DropNest
          </h2>

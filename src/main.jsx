@@ -7,7 +7,9 @@ import { router } from "./Router/Router";
 
 createRoot(document.getElementById("root")).render(
    <StrictMode>
-      <RouterProvider router={router} />
-      <Toaster position="top-right" reverseOrder={false} />
+      <div className="font-urbanist bg-base-200">
+         <RouterProvider router={router} />
+         <Toaster position="top-right" reverseOrder={false} />
+      </div>
    </StrictMode>
 );

@@ -17,10 +17,18 @@
    --color-black: #0B0B0B;
 }
 
-body {
+.font-urbanist {
    font-family: "Urbanist", sans-serif;
 }
 
 .footerIcon {
    @apply hover:bg-white hover:text-black p-3 rounded-full duration-300
+}
+
+.active {
+   @apply bg-primary rounded-full font-bold text-secondary
+}
+
+.navHover {
+   @apply hover:bg-primary rounded-full hover:text-secondary mx-1 px-4 duration-300
 }
