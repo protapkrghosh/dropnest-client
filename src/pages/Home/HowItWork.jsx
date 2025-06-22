@@ -4,11 +4,11 @@ const HowItWork = () => {
    return (
       <Container>
          <div>
-            <h1 className="text-secondary text-[32px] font-extrabold mb-8">
+            <h1 className="text-secondary text-[32px] font-extrabold mb-5 md:mb-8">
                How It Works
             </h1>
 
-            <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5">
+            <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
                <div className="bg-white rounded-3xl p-6">
                   <img
                      src="https://img.icons8.com/?size=100&id=7493&format=png&color=000000"

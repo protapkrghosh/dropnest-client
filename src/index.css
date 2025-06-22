@@ -8,27 +8,35 @@
 @plugin "daisyui/theme" {
    name: "light";
    default: true;
-   --color-primary: #CAEB66;
-   --color-secondary: #03373D;
-   --color-accent: #E6F2F3;
-   --color-base-200: #EAECED;
+   --color-primary: #caeb66;
+   --color-secondary: #03373d;
+   --color-accent: #e6f2f3;
+   --color-base-200: #eaeced;
    --color-base-300: #606060;
-   --color-gray-300: #DADADA;
-   --color-black: #0B0B0B;
+   --color-gray-300: #dadada;
+   --color-black: #0b0b0b;
 }
 
+/* Navbar Area */
 .font-urbanist {
    font-family: "Urbanist", sans-serif;
 }
 
-.footerIcon {
-   @apply hover:bg-white hover:text-black p-3 rounded-full duration-300
-}
-
 .active {
-   @apply bg-primary rounded-full font-bold text-secondary
+   @apply bg-primary rounded-full font-bold text-secondary;
 }
 
 .navHover {
-   @apply hover:bg-primary rounded-full hover:text-secondary mx-1 px-4 duration-300
+   @apply hover:bg-primary rounded-full hover:text-secondary mx-1 px-4 duration-300;
+}
+
+/* Our Services */
+.iconBgColor {
+   border-radius: 99px;
+   background: linear-gradient(180deg, #eeedfc 0%, rgba(238, 237, 252, 0) 100%);
+}
+
+/* Footer Section */
+.footerIcon {
+   @apply hover:bg-white hover:text-black p-3 rounded-full duration-300;
 }
