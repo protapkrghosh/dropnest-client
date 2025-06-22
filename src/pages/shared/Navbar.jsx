@@ -5,9 +5,6 @@ import Container from "../../components/Container";
 
 const Navbar = () => {
    const navItems = [
-      <li key={"home"}>
-         <NavLink to={"/"} className={'navHover'}>Home</NavLink>
-      </li>,
       <li key={"service"}>
          <NavLink to={"/service"} className={'navHover'}>Service</NavLink>
       </li>,
@@ -27,7 +24,7 @@ const Navbar = () => {
 
    return (
       <Container>
-         <div className="pt-8 mb-14">
+         <div className="pt-8">
             <div className="bg-white shadow-sm rounded-2xl px-8">
                <div className="navbar py-4">
                   <div className="navbar-start">

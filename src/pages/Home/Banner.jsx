@@ -7,21 +7,23 @@ import Container from "../../components/Container";
 
 const Banner = () => {
    return (
-      <Container>
-         <Carousel infiniteLoop={true} autoPlay={true}>
-            <div>
-               <img src={bannerImg1} />
-            </div>
+      <div className="my-14">
+         <Container>
+            <Carousel infiniteLoop={true} autoPlay={true} showThumbs={false}>
+               <div>
+                  <img src={bannerImg1} />
+               </div>
 
-            <div>
-               <img src={bannerImg2} />
-            </div>
+               <div>
+                  <img src={bannerImg2} />
+               </div>
 
-            <div>
-               <img src={bannerImg3} />
-            </div>
-         </Carousel>
-      </Container>
+               <div>
+                  <img src={bannerImg3} />
+               </div>
+            </Carousel>
+         </Container>
+      </div>
    );
 };
 
