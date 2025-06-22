@@ -1,7 +1,7 @@
-import React from "react";
 import Banner from "./Banner";
 import HowItWork from "./HowItWork";
 import OurServices from "./Services/OurServices";
+import ClientLogoMarquee from "./ClientLogoMarquee";
 
 const Home = () => {
    return (
@@ -9,6 +9,7 @@ const Home = () => {
          <Banner />
          <HowItWork />
          <OurServices />
+         <ClientLogoMarquee />
       </div>
    );
 };
