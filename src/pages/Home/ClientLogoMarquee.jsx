@@ -12,36 +12,38 @@ const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7];
 
 const ClientLogoMarquee = () => {
    return (
-      <Container>
-         <div>
-            <h1 className="text-secondary text-[28px] text-center font-extrabold mb-5">
-               We've helped thousands of sales teams
-            </h1>
-
+      <div className="mb-20">
+         <Container>
             <div>
-               <Marquee
-                  speed={50}
-                  gradient={true}
-                  gradientColor="#EAECED"
-                  pauseOnHover={true}
-                  direction="left"
-               >
-                  {logos.map((logo, index) => (
-                     <div
-                        key={index}
-                        className="mx-12 flex items-center justify-center"
-                     >
-                        <img
-                           src={logo}
-                           alt={`Company Logo ${index + 1}`}
-                           className="h-20 w-24 object-contain"
-                        />
-                     </div>
-                  ))}
-               </Marquee>
+               <h1 className="text-secondary text-[28px] text-center font-extrabold mb-5">
+                  We've helped thousands of sales teams
+               </h1>
+
+               <div>
+                  <Marquee
+                     speed={50}
+                     gradient={true}
+                     gradientColor="#EAECED"
+                     pauseOnHover={true}
+                     direction="left"
+                  >
+                     {logos.map((logo, index) => (
+                        <div
+                           key={index}
+                           className="mx-12 flex items-center justify-center"
+                        >
+                           <img
+                              src={logo}
+                              alt={`Company Logo ${index + 1}`}
+                              className="h-20 w-24 object-contain"
+                           />
+                        </div>
+                     ))}
+                  </Marquee>
+               </div>
             </div>
-         </div>
-      </Container>
+         </Container>
+      </div>
    );
 };
 

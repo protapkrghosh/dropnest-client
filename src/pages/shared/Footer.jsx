@@ -13,14 +13,14 @@ const Footer = () => {
                   <aside>
                      <DropNestLogo text="text-[32px]" textColor="text-[#fff]" />
 
-                     <p className="text-gray-300 mt-4  md:max-w-[70%] mx-auto leading-6 md:leading-8">
+                     <p className="text-gray-500 mt-4  md:max-w-[70%] mx-auto leading-6 md:leading-8">
                         Enjoy fast, reaable parcel deavery with real-time
                         tracking and zero hassle. From personal packages to
                         business shipments — we deaver on time, every time.
                      </p>
                   </aside>
 
-                  <nav className="md:flex justify-center gap-5 md:gap-9 text-base text-gray-400 font-medium border-y border-dashed border-[#03464D] py-5 md:py-8 w-full">
+                  <nav className="md:flex justify-center gap-5 md:gap-9 text-base text-accent font-medium border-y border-dashed border-[#03464D] py-5 md:py-8 w-full">
                      <NavLink
                         to={"/service"}
                         key={"service"}
