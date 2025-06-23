@@ -1,24 +1,16 @@
 import location from "../../assets/location-merchant.png";
-import bgMerchant from "../../assets/be-a-merchant-bg.png";
 import Container from "../../components/Container";
 
 const BeMerchant = () => {
    return (
       <div>
          <Container>
-            <div
-               style={{
-                  backgroundImage: `url(${bgMerchant})`,
-                  backgroundPosition: "top",
-                  backgroundRepeat: "no-repeat",
-               }}
-               className="md:flex justify-between items-center bg-secondary rounded-3xl p-20 my-20"
-            >
+            <div className="bg-[url(assets/be-a-merchant-bg.png)] bg-no-repeat bg-top-center md:flex justify-between items-center bg-secondary rounded-3xl p-20 my-20">
                <div className="md:w-1/2">
                   <h2 className="text-white text-[31px] 2xl:text-[39px] font-extrabold">
                      Merchant and Customer Satisfaction is Our First Priority
                   </h2>
-                  <p className="max-w-[516px] text-[#DADADA] leading-7 mt-4 mb-8">
+                  <p className="max-w-[516px] text-[#b9b8b8] leading-7 mt-4 mb-8">
                      We offer the lowest delivery charge with the highest value
                      along with 100% safety of your product. Pathao courier
                      delivers your parcels in every corner of Bangladesh right

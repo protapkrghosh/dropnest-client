@@ -7,7 +7,11 @@ const Benefits = () => {
    return (
       <Container>
          <div className="space-y-6 border-y-[1.4px] border-[#03464d8e] border-dashed py-20">
-            <div className="bg-white p-8 rounded-3xl flex justify-between items-center">
+            <div
+               data-aos="fade-up"
+               data-aos-duration="900"
+               className="bg-white p-8 rounded-3xl flex justify-between items-center"
+            >
                <div className="pr-8 md:pr-12">
                   <img
                      src={track}
@@ -31,7 +35,11 @@ const Benefits = () => {
                </div>
             </div>
 
-            <div className="bg-white p-8 rounded-3xl flex justify-between items-center">
+            <div
+               data-aos="fade-up"
+               data-aos-duration="1300"
+               className="bg-white p-8 rounded-3xl flex justify-between items-center"
+            >
                <div className="pr-8 md:pr-12">
                   <img
                      src={delivery}
@@ -55,7 +63,11 @@ const Benefits = () => {
                </div>
             </div>
 
-            <div className="bg-white p-8 rounded-3xl flex justify-between items-center">
+            <div
+               data-aos="fade-up"
+               data-aos-duration="1600"
+               className="bg-white p-8 rounded-3xl flex justify-between items-center"
+            >
                <div className="pr-8 md:pr-12">
                   <img
                      src={callCenter}
