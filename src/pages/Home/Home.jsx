@@ -7,7 +7,7 @@ import BeMerchant from "./BeMerchant";
 
 const Home = () => {
    return (
-      <div>
+      <div className="bg-base-200">
          <Banner />
          <HowItWork />
          <OurServices />

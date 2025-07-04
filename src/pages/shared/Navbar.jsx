@@ -33,7 +33,7 @@ const Navbar = () => {
    ];
 
    return (
-      <div className="sticky -top-8 z-50">
+      <div className="sticky -top-8 z-50 bg-base-200">
          <Container>
             <div className="pt-8">
                <div className="bg-white shadow-sm rounded-2xl px-8">
@@ -86,9 +86,9 @@ const Navbar = () => {
                         </ul>
                      </div>
                      <div className="navbar-end">
-                        <a className="btn text-secondary font-bold border border-gray-300 bg-white hover:bg-primary rounded-lg duration-300">
-                           Sign In
-                        </a>
+                        <Link to={'/login'} className="btn text-secondary font-bold border border-gray-300 bg-white hover:bg-primary rounded-lg duration-300">
+                           Login
+                        </Link>
                      </div>
                   </div>
                </div>

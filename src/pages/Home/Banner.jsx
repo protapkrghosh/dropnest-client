@@ -7,7 +7,7 @@ import Container from "../../components/Container";
 
 const Banner = () => {
    return (
-      <div className="my-14">
+      <div className="py-14">
          <Container>
             <Carousel infiniteLoop={true} autoPlay={true} showThumbs={false}>
                <div>
